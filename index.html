@@ -3,78 +3,113 @@
     <head>
         <meta charset="utf-8"/>
         <title>Yamila Pena</title>
-        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h1>Yamila Pena</h1>
+            <div>
+                <h1>Yamila Pena</h1>
+            </div>
         </header>
 
-        <main>
-            <section>
-                <h2>Sobre mi</h2>
-                <p>Tengo 27 años y soy una Diseñadora Gráfica Jr. que busca desarrollarse profesionalmente. Inicé mi experiencia trabajando con emprendimientos y ahora me desempeño en el sector privado.</p>
-            </section>
+        <main class="flex-container">
+            <div class="secciones">
+                <section>
+                    <div class="titulo_seccion">
+                        <img src="img\cabeza-de-mujer.svg" width="40px" height="40px">
+                        <h2>Sobre mi</h2>
+                    </div>
+                    <div class="contenido_seccion">
+                        <div class="contenedor-sobre-mi">
+                            <p>Tengo 27 años y soy una Diseñadora Gráfica Jr. que busca desarrollarse profesionalmente. <br>Inicé mi experiencia trabajando con emprendimientos <br> y ahora me desempeño en el sector privado.</p>
+                            <img src="img\FOTOMIA.png" alt="imagen provisoria" width="300px" height="300px" class="foto_mia">
+                        </div>
+                    </div>
+                </section>
+            </div>
 
-            <section>
-                <h2>Educación</h2>
-                <p>Licenciatura en Diseño y Comunicacion Visual / Universidad de Lanus</p>
-            </section>
-          
-            <section>
-                <h2>Experiencia laboral</h2>
-                <ol>
-                    <li>
-                        <h3>El Paso Group</h3>
-                        <p>Marzo 2024 - Actualidad</p>
-                        <ul>
-                            <li>Creación de piezas digitales e impresas acorde a las necesidades de distintos clientes</li>
-                            <li>Branding</li>
-                            <li>Edicion simple de video</li>
-                            <li>Manejo de distintas cuentas de clientes</li>
+            <div class="secciones">
+                <section>
+                    <div class="titulo_seccion">
+                        <img src="img\gorro-de-graduacion.svg" width="40px" height="40px">
+                        <h2>Educación</h2>
+                    </div>
+                    <div class="contenido_seccion">
+                        <p class="textos_bold">Licenciatura en Diseño y Comunicacion Visual</p>
+                        <p>Universidad Nacional de Lanús</p>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="secciones">
+                <section>
+                    <div class="titulo_seccion">
+                        <img src="img\maletin.svg" width="40px" height="40px">
+                        <h2>Experiencia laboral</h2>
+                    </div>
+                    <div class="contenido_seccion">
+                        <ol>
+                            <div class="elpaso">
+                                <li>
+                                    <h3><a href="https://www.elpasogroup.com.ar/" target="_blank">El Paso Group</a></h3>
+                                    <p class="textos_bold">Marzo 2024 - Actualidad</p>
+                                    <ul>
+                                        <li>Creación de piezas digitales e impresas acorde a las necesidades de distintos clientes</li>
+                                        <li>Branding</li>
+                                        <li>Edicion simple de video</li>
+                                        <li>Manejo de distintas cuentas de clientes</li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <div class="aqua">
+                                <li>
+                                    <h3><a href="https://www.aqualaf.com.ar/" target="_blank">Aqualaf Grifería</a></h3>
+                                    <p class="textos_bold">Abril 2023 - Febrero 2024</p>
+                                    <ul>
+                                        <li>Diseño de piezas digitales e impresas respetando la identidad de marca</li>
+                                        <li>Adaptación de piezas existentes</li>
+                                        <li>Fotoproducto y retoque de imagen</li>
+                                        <li>Creación de fotomontajes</li>
+                                        <li>Mantenimiento y actualización del sitio web</li>
+                                        <li>Edición simple de video</li>
+                                    </ul>
+                                </li>
+                            </div>
+                        </ol>
+                    </div>
+                </section>
+            </div>
+
+            <div class="secciones">
+                <section>
+                    <div class="titulo_seccion">
+                        <img src="img\ordenador-portatil.svg" width="40px" height="40px">
+                        <h2>Softwares</h2>
+                    </div>
+                    <div class="contenido_seccion">
+                        <ul class="softwares">
+                            <div class="programa"><img src="img\photoshop.svg" width="25 px" height="25px"><li>Adobe Photoshop</li></div>
+                            <div class="programa"><img src="img\illustrator.svg" width="25 px" height="25px"><li>Adobe Illustrator</li></div>
+                            <div class="programa"><img src="img\indesign.svg" width="25 px" height="25px"><li>Adobe Indesign</li></div>
+                            <div class="programa"><img src="img\photoshop-lightroom.svg" width="25 px" height="25px"><li>Lightroom</li></div>
                         </ul>
-                    </li>
-                    <li>
-                        <h3>Aqualaf SA</h3>
-                        <p>Abril 2023 - Febrero 2024</p>
-                        <ul>
-                            <li>Diseño de piezas digitales e impresas respetando la identidad de marca</li>
-                            <li>Adaptación de piezas existentes</li>
-                            <li>Fotoproducto y retoque de imagen</li>
-                            <li>Creación de fotomontajes</li>
-                            <li>Mantenimiento y actualización del sitio web</li>
-                            <li>Edición simple de video</li>
-                        </ul>
-                    </li>
-                </ol>
-            </section>
-
-            <section>
-                <h2>Softwares</h2>
-                    <ul>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe Indesign</li>
-                        <li>Lightroom</li>
-                    </ul>
-            </section>
-
-            <aside>
-                <h2>Skills</h2>
-                <p>Fotoproducto, manejo de cámara profesional, edición de imagen, preparación de originales para impresión.</p>
-            </aside>
+                    </div>
+                </section>
+            </div>
         </main>
 
         <footer>
-            <section>
-                <ul>
-                    <li>Buenos Aires</Li>
-                    <li>1133809777</li>
-                    <li><a href="mailto:yamilapena8@gmail.com">Yamilapena8@gmail.com</a></li>
-                    <li><a href="https://www.behance.net/yamilapena">behance.net/yamilapena</a></li>
-                </ul>
-            </section>
+            <div class="iconos_footer">
+                <a href="mailto:yamilapena8@gmail.com"><img src="img\sobre-abierto.svg" width="25px" height="25px"></a>
+                <a href="https://www.behance.net/yamilapena" target="_blank"><img src="img\behance.svg" width="25px" height="25px"></a>
+            </div>
+            <div>
+                <p>Mi primera página web</p>
+            </div>
         </footer>
     </body>
 
